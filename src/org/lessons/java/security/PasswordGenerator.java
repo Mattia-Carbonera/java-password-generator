@@ -24,7 +24,7 @@ public class PasswordGenerator {
 
 
         // STAMPO LA PASSWORD
-        System.out.println("Password: " + name + surname + favouriteColor + (day + month + year));
+        System.out.println("Password: " + name + "-" + surname + "-" + favouriteColor + "-" + (day + month + year));
 
     }
 }
